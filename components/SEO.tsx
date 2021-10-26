@@ -6,7 +6,9 @@ interface Props {
 }
 
 export default function SEO({ title }: Props) {
-    const currentTitle = `Brandon Nilsson | ${title ? title : "Software Developer"}`
+    const currentTitle = `Brandon Nilsson | ${
+        title ? title : 'Software Developer'
+    }`
 
     return (
         <Head>
