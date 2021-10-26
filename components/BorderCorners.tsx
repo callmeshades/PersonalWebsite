@@ -1,5 +1,9 @@
 import React from 'react'
 
+/**
+ * Applies corners to the parent element.
+ * When using ensure a relative position is applied to the parent element
+ */
 export default function BorderCorners() {
     return (
         <>
