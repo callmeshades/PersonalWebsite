@@ -16,6 +16,7 @@ export default function AllProjects() {
                         bgAlt={project.bgAlt}
                         name={project.name}
                         description={project.description}
+                        tech={project.tech}
                     />
                 ))}
             </div>

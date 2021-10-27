@@ -11,6 +11,11 @@ module.exports = {
             colors: {
                 cyan: colors.cyan,
             },
+            zIndex: {
+                '1': 1,
+                '10': 10,
+                '0': 0
+            }
         },
     },
     variants: {
