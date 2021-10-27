@@ -4,7 +4,7 @@ import Button from './Button'
 
 export default function PersonalCard() {
     return (
-        <div className="flex flex-col md:flex-row items-center md:items-stretch justify-center h-full gap-x-7 gap-y-5 bg-white py-6 px-8 rounded-lg shadow-xl relative z-10">
+        <div className="flex flex-col md:flex-row items-center md:items-stretch justify-center h-full gap-x-7 gap-y-5 py-6 px-8 rounded-lg relative z-10">
             <div className="w-32 h-32 overflow-hidden rounded-xl">
                 <img
                     src="personal-photo.jpg"
