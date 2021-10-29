@@ -15,7 +15,8 @@ export default {
         "next.js",
         "tailwindcss",
         "styledcomponents",
-        "netlify"
+        "netlify",
+        "github"
     ],
     images: [
         { url: 'ordermerch.png' },

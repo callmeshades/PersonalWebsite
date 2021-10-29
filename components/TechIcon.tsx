@@ -12,6 +12,10 @@ const convertName = (name: string) => {
         .replace('.', 'dot')
         .replace('React', 'ReactJs')
         .replace('C#', 'Csharp')
+        .replace('Scss', 'Sass')
+        .replace('Liquid', 'Shopify')
+        .replace('JQuery', 'Jquery')
+        .replace('Node.js', 'Nodedotjs')
 }
 
 // Dynamically renders an icon based on the provided value

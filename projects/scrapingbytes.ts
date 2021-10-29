@@ -15,7 +15,8 @@ export default {
         "styledcomponents",
         "netlify",
         "bare metal",
-        "stripe"
+        "stripe",
+        "github"
     ],
     images: [
         { url: 'scrapingbytes.png' },

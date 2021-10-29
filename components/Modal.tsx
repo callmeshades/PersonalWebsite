@@ -37,22 +37,33 @@ export default function Modal({ project, showing, setShowing }: Props) {
 
                             {/* Slider */}
                             <div className="shadow-lg border border-gray-200 rounded overflow-hidden mb-5">
-                                <AliceCarousel
-                                    mouseTracking
-                                    infinite
-                                    autoPlay
-                                    autoPlayInterval={2000}
-                                    disableDotsControls
-                                    disableButtonsControls
-                                    items={project.images.map(img => (
+                                {project.images.length > 1 ? (
+                                    <AliceCarousel
+                                        mouseTracking
+                                        infinite
+                                        autoPlay
+                                        autoPlayInterval={2000}
+                                        disableDotsControls
+                                        disableButtonsControls
+                                        items={project.images.map(img => (
+                                            <img
+                                                src={img.url}
+                                                alt={img.alt ? img.alt : ''}
+                                                onDragStart={handleDragStart}
+                                                className="w-full"
+                                            />
+                                        ))}
+                                    />
+                                ): (
+                                    <div>
                                         <img
-                                            src={img.url}
-                                            alt={img.alt ? img.alt : ''}
+                                            src={project.images[0].url}
+                                            alt={project.images[0].alt ? project.images[0].alt : ''}
                                             onDragStart={handleDragStart}
                                             className="w-full"
                                         />
-                                    ))}
-                                />
+                                    </div>
+                                )}
                             </div>
 
                             {/* Technologies */}

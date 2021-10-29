@@ -14,9 +14,9 @@ import vellabio from "./vellabio";
 export default [
     ordermerch,
     scrapingbytes,
-    // badfoodco,
-    // vellabio,
-    // ragenjewels,
+    badfoodco,
+    vellabio,
+    ragenjewels,
     // regalytics,
     // fiuti,
     // fitness,
