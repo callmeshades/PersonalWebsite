@@ -121,6 +121,18 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
+"@icons-pack/react-simple-icons@^4.6.1":
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/@icons-pack/react-simple-icons/-/react-simple-icons-4.6.1.tgz#47e07a43ff90ce3ff7d64806cdac76fa68b986fc"
+  integrity sha512-ICONbofFzeTkXvmbnptDv4P9cqtW/N/8EFOqyzJQJ80b8fJoLzqhM7EKslBmWziIwjY9FBnOoL2ofzQOoDG1Gg==
+  dependencies:
+    prop-types "^15.7.2"
+
+"@jxnblk/simple-icons@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@jxnblk/simple-icons/-/simple-icons-1.0.0.tgz#7c8e3c6b55b5b3fb8b2c693398b8680b70650c75"
+  integrity sha1-fI48a1W1s/uLLGkzmLhoC3BlDHU=
+
 "@napi-rs/triples@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@napi-rs/triples/-/triples-1.0.3.tgz#76d6d0c3f4d16013c61e45dfca5ff1e6c31ae53c"
@@ -236,6 +248,11 @@
   version "0.16.2"
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
+
+"@types/simple-icons@^5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@types/simple-icons/-/simple-icons-5.8.0.tgz#f21ae9af517a25cbfbd95ca2b812b9a93e2a66b9"
+  integrity sha512-2HeuJRjOhwCV6jnflcNtI68Xd9WKsVqVpgeokGz2buNyfuq0F0h/QDcPPZzNlK1OnL5zQfdd5jlG6f3ijkTHnw==
 
 "@typescript-eslint/parser@^4.20.0":
   version "4.29.3"
@@ -2803,6 +2820,13 @@ raw-body@2.4.1:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+react-alice-carousel@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/react-alice-carousel/-/react-alice-carousel-2.5.1.tgz#d8b27f942d342bf57367eb2c3301358a28758381"
+  integrity sha512-UeAd+O83TEiCxbDMMd9xAOLRr+xPNFPai9W6cNQgmIfEBgOiKDdntpTnhhwfXKoirXxQcbPlg9eG7FG9D1M4SA==
+  dependencies:
+    vanilla-swipe "^2.2.0"
+
 react-dom@17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
@@ -2833,6 +2857,13 @@ react-refresh@0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
+
+react-simple-icons@^1.0.0-beta.5:
+  version "1.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/react-simple-icons/-/react-simple-icons-1.0.0-beta.5.tgz#b022badb6bd8060ab3ed6cf3ce503e300a706356"
+  integrity sha1-sCK622vYBgqz7WzzzlA+MApwY1Y=
+  dependencies:
+    "@jxnblk/simple-icons" "^1.0.0"
 
 react@17.0.2:
   version "17.0.2"
@@ -3062,6 +3093,11 @@ side-channel@^1.0.4:
     call-bind "^1.0.0"
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
+
+simple-icons@^5.20.0:
+  version "5.20.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-5.20.0.tgz#2e24d8991aaa70cb514605b9812ff5a88c53ad2d"
+  integrity sha512-XizBBRSnGm8f+DQS3keR4hh8g0FbjvpBuXvA0PkLuDpyNraJxo7c/9WuZ9sl/N6EsBFGAwQ3Ci8ZWnyzQSalrg==
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
@@ -3566,6 +3602,11 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
+
+vanilla-swipe@^2.2.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/vanilla-swipe/-/vanilla-swipe-2.3.0.tgz#a2cd466aabed00c1e8abd7b69a86940bf9319516"
+  integrity sha512-4m8vZ/kckRG7RQUYNg+0lGILMHT08KEgwePlRLzediDSu7aQFBLB0V2n36vUmYqq5CVWASOzZ8zpnQFZXIbHbA==
 
 vm-browserify@1.1.2, vm-browserify@^1.0.1:
   version "1.1.2"

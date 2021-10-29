@@ -13,14 +13,14 @@ import vellabio from "./vellabio";
 
 export default [
     ordermerch,
-    scrapingbytes,
-    badfoodco,
-    vellabio,
-    ragenjewels,
-    regalytics,
-    fiuti,
-    fitness,
-    foreman,
-    firstpass,
-    alphaready
+    // scrapingbytes,
+    // badfoodco,
+    // vellabio,
+    // ragenjewels,
+    // regalytics,
+    // fiuti,
+    // fitness,
+    // foreman,
+    // firstpass,
+    // alphaready
 ] as Project[]

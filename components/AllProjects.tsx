@@ -12,11 +12,7 @@ export default function AllProjects() {
                 {projects.map((project, idx) => (
                     <ProjectCard
                         key={idx}
-                        bgImage={project.bgImage}
-                        bgAlt={project.bgAlt}
-                        name={project.name}
-                        description={project.description}
-                        tech={project.tech}
+                        project={project}
                     />
                 ))}
             </div>

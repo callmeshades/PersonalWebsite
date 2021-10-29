@@ -1,3 +1,4 @@
+import { Image } from "./image";
 import { tech } from "./technology";
 
 export interface Project {
@@ -6,4 +7,5 @@ export interface Project {
     name: string
     description: string
     tech: tech[]
+    images: Image[]
 }
