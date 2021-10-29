@@ -13,6 +13,9 @@ export default {
         "postgresql",
         "react",
         "next.js",
+        "tailwindcss",
+        "styledcomponents",
+        "netlify"
     ],
     images: [
         { url: 'ordermerch.png' },

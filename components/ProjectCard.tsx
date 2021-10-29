@@ -12,11 +12,13 @@ export default function ProjectCard({ project }: Props) {
 
     return (
         <div
-            onMouseEnter={() => setHovering(true)}
-            onMouseLeave={() => setHovering(false)}
             className={`relative transition-all duration-200 ${hovering ? '-top-1 shadow-lg' : 'top-0 shadow'} rounded bg-white overflow-hidden w-full cursor-pointer`}
         >
-            <div onClick={() => setModal(true)}>
+            <div
+                onMouseEnter={() => setHovering(true)}
+                onMouseLeave={() => setHovering(false)}
+                onClick={() => setModal(true)}
+            >
                 <div className="relative">
                     <div className="overflow-hidden h-48 border-b border-gray-200 z-0">
                         <img

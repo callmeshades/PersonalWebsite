@@ -13,7 +13,7 @@ import vellabio from "./vellabio";
 
 export default [
     ordermerch,
-    // scrapingbytes,
+    scrapingbytes,
     // badfoodco,
     // vellabio,
     // ragenjewels,
