@@ -30,13 +30,19 @@ export default function PersonalCard() {
                     </div>
                     <div className="flex items-center justify-center md:justify-start gap-x-4">
                         <Button paddingY="py-0" paddingX="px-0">
-                            <GitHub size={14} />
+                            <a href="https://www.github.com/callmeshades" target="_blank">
+                                <GitHub size={14} />
+                            </a>
                         </Button>
                         <Button paddingY="py-0" paddingX="px-0">
-                            <Linkedin size={14} />
+                            <a href="https://www.linkedin.com/in/brandon-nilsson/" target="_blank">
+                                <Linkedin size={14} />
+                            </a>
                         </Button>
                         <Button paddingY="py-0" paddingX="px-0">
-                            <Mail size={14} />
+                            <a href="mailto:brandonnilly@gmail.com">
+                                <Mail size={14} />
+                            </a>
                         </Button>
                     </div>
                 </div>
