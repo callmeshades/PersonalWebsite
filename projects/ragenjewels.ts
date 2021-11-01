@@ -11,7 +11,8 @@ export default {
         "next.js",
         "styledcomponents",
         "github",
-        "node.js"
+        "node.js",
+        "typescript"
     ],
     images: [
         { url: "ragenjewels.jpg" }

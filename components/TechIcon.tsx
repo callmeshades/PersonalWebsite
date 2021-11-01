@@ -16,6 +16,7 @@ const convertName = (name: string) => {
         .replace('Liquid', 'Shopify')
         .replace('JQuery', 'Jquery')
         .replace('Node.js', 'Nodedotjs')
+        .replace('Aws', 'Amazonaws')
 }
 
 // Dynamically renders an icon based on the provided value

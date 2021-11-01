@@ -9,18 +9,22 @@ import ordermerch from "./ordermerch";
 import ragenjewels from "./ragenjewels";
 import regalytics from "./regalytics";
 import scrapingbytes from "./scrapingbytes";
+import simplesim from "./simplesim";
+import trading from "./trading";
 import vellabio from "./vellabio";
 
 export default [
+    simplesim,
     ordermerch,
     scrapingbytes,
     badfoodco,
     vellabio,
+    // trading,
     ragenjewels,
-    // regalytics,
-    // fiuti,
-    // fitness,
-    // foreman,
-    // firstpass,
-    // alphaready
+    regalytics,
+    fiuti,
+    fitness,
+    foreman,
+    firstpass,
+    alphaready
 ] as Project[]

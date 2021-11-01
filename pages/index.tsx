@@ -5,7 +5,7 @@ import SEO from '../components/SEO'
 
 export default function Index() {
     return (
-        <div className="bg-gray-100 h-full min-h-screen overflow-x-hidden">
+        <div className="bg-gray-100 h-full min-h-screen overflow-x-hidden pb-20">
             <SEO title="Home" />
             <Header />
             <AllProjects />

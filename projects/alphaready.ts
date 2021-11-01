@@ -8,6 +8,10 @@ export default {
         "wordpress",
         "php",
         "shared hosting",
-        "mysql"
+        "mysql",
+        "javascript"
+    ],
+    images: [
+        { url: "alphaready.png" }
     ]
 } as Project

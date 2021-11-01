@@ -7,6 +7,7 @@ export default {
     tech: [
         "C#",
         "dotnet",
+        "typescript",
         "postgresql",
         "redis",
         "react",

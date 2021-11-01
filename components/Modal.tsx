@@ -23,7 +23,7 @@ export default function Modal({ project, showing, setShowing }: Props) {
         <div className="relative cursor-default select-text">
             {showing && (
                 <div className="fixed inset-0 z-10 flex items-center justify-center">
-                    <div className="w-full h-full bg-white shadow z-10" id="modalContainer">
+                    <div className="w-full h-full bg-white shadow z-10 overflow-y-auto pb-20" id="modalContainer">
                         <Container>
                             <div className="flex w-full items-center justify-between py-8">
                                 <h2 className="font-bold text-2xl">{project.name}</h2>

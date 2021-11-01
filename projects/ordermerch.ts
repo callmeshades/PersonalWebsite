@@ -10,6 +10,7 @@ export default {
         "celery",
         "linode",
         "redis",
+        "typescript",
         "postgresql",
         "react",
         "next.js",
