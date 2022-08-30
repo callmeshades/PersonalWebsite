@@ -29,4 +29,4 @@ fields:
   label: Location
   default: Grande Prairie, Alberta
 pages:
-- content/home/brandon-nilsson.mdx
+- content/home/banner.mdx
