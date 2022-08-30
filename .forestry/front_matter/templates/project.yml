@@ -2,6 +2,17 @@
 label: Project
 hide_body: false
 fields:
+- name: id
+  type: number
+  label: Id
+  description: ''
+  default: 1
+  required: true
+  config:
+    min: 1
+    max: 
+    step: 1
+    required: true
 - name: title
   type: text
   config:
