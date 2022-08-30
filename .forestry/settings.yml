@@ -13,11 +13,11 @@ sections:
   templates:
   - banner
   - project
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: public/imgs/uploads
+public_path: "/imgs/uploads"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":filename:"
+file_template: ":filename:_:day:_:year:"
 build:
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:12
