@@ -1,4 +1,25 @@
 ---
 label: Banner
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    min: 1
+  label: Title
+  default: Brandon Nilsson
+- name: subtitle
+  type: text
+  config:
+    required: true
+    min: 1
+  label: Subtitle
+  default: I'm a developer who likes building things
+- name: location
+  type: text
+  config:
+    required: true
+    min: 1
+  label: Location
+  default: Grande Prairie, Alberta
